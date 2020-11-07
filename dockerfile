@@ -3,4 +3,4 @@ LABEL maintainer="thecloudxpert"
 
 ADD VERSION .
 
-RUN yum update -y && yum -y install 
+RUN yum update -y
