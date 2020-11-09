@@ -6,4 +6,4 @@ ADD VERSION .
 RUN yum update -y
 
 # install tools
-RUN     yum -y install wget unzip git
+RUN yum install -y wget unzip git
